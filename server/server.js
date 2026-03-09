@@ -20,7 +20,7 @@ await connectDB()
 await connectCloudinary()
 
 // Allowed multiple Orginis
-const allowedOrigins = ['http://localhost:5173']
+const allowedOrigins = ['http://localhost:5173','https://greencart-one-blue.vercel.app/']
 
 // Middleware Configuration
 app.use(express.json());
